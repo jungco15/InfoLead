@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to bottom,#0f3443, #34e89e);
+}
+header{
+  position: absolute;
+  right: 0%;
+  top: 0%;
+  z-index: 1000;
+  width: 100%;
+  display: flex;
+  align-self: center ;
+  justify-content:space-between;
+  padding: 50px 9%;
+  background: transparent;
+}
+header .logo{
+  padding-left: 2px;
+  border-left:3px solid black ;
+  padding-top: 3px;
+  font-size:25px;
+  font-weight: 500;
+  color:white;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+header ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header ul li{
+  list-style: none;
+}
+header ul li a{
+  text-decoration: none;
+}
+header ul li a:hover{
+  text-transform: uppercase;
+  transform: rotateY(-5px);
+}
+.navlist{
+  display: flex;
+}
+.navlist a{
+  vertical-align: middle;
+  letter-spacing: -1px;
+  color: white;
+  margin-left: 30px;
+  margin-right: 60px;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: all .1s ease;
+  background:#0f3443;
+  padding: 18px;
+  border-radius: 25px;    
+  width: 500px;
+  height: 50px;
+  box-shadow: 0 4px #57eeaf;
+  border-style: solid;
+  border-color: #57eeaf;
+  border-width: 1px 1px 0px 1px;
+}
+.navlist a:hover{
+  color: #57eeaf;
+  transition-delay: all 5s ease;
+  box-shadow: 0px 0px black;
+  background: #0f3443;
+  border-style: solid;
+  border-color: #57eeaf;
+  border-width: 1px 1px 1px 1px;
+}
+section{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  padding: 100px;
+}
+.hero-image img{
+  top: 0%;
+  left: 0%;
+  width: 760px;
+  height: 100%;
+  margin-left: -2%;
+  margin-top: 3%;
+  
+}
+
+.hero-text h1{
+  font-family:'Inter', sans-serif;;
+  font-size: 240%;
+  font-weight: 500;
+  color: white;
+  margin-left: 66%;
+  margin-bottom: -1%;
+  margin-top: -33%;
+}
+.wrapper {
+  width: 48%;
+  max-width: 31.25rem;
+  margin-top: -6%;
+  margin-left: 65%;
+  margin-right: 0%;
+} 
+.searchBar {
+  width: 70%;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+}
+#searchQueryInput {
+  width: 70%;
+  height: 2.8rem;
+  background: #f5f5f5;
+  outline: none;
+  border: 1px solid white;
+  border-radius: 1.625rem;
+  padding: 0 3.5rem 0 1.5rem;
+  font-size: 1rem;
+  box-shadow: 2px 3px #0f3443;
+}
+
+#searchQuerySubmit {
+  width: 3.5rem;
+  height: 2.8rem;
+  margin-left: -3.5rem;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+#searchQuerySubmit:hover {
+  cursor: pointer;
+}
+.label {
+  margin: 55% 0% 15% -68%;
+}
+.label p{
+  font-size: .600rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: +1.3px; 
+}
+.icons{
+  margin: 45% 0% -10% -75%;
+  padding:15%;
+}
+.icons i{
+  margin: 0px 15px 0px 0%;
+  font-size: 24px;
+  color: #0f3443;
+  transition: all .50s ease;
+  transform: rotateY(-50%);
+}
+.icons i:hover{
+  color: white;
+  transform: translateY(-5px);
+}
+section2 {
+  padding: 60px 6% 90px 90px;
+}
+.footer{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, auto));
+  gap: 3.5rem;
+  background:#0f3443;
+  list-style: none;
+}
+.footer-content h5{
+  padding-left: 2px;
+  border-left:3px solid black ;
+  padding-top: 4px;
+  font-size:20px;
+  font-weight: 500;
+  color:white;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+.footer-content p{
+  margin: 12px 0px 10px ;
+  font-size: .500rem;
+  font-weight: 200;
+  text-transform: uppercase;
+  letter-spacing: +1.3px; 
+  color: white;
+}
+.footer-content h4{
+  color:white;
+  margin-bottom: 1.5rem;
+  font-size: 18px;
+  font-weight:200;
+}
+.footer-content li{
+  margin-bottom: 10px;
+}
+.footer-content li a{
+  color: #d6d6d6;
+  font-size: 13px;
+  font-weight: 100;
+  transition: all .40s ease;
+}
+.footer-content li a:hover{ 
+   
+  color:#34e89e;
+}
+.f-icons a{
+  display: 20px;
+  font-size: 19px;
+  color: #d6d6d6;
+  margin-right: 13px;
+  transition: all .40s ease;
+}
