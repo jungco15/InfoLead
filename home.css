@@ -209,14 +209,17 @@ section2 {
   font-weight: 100;
   transition: all .40s ease;
 }
-.footer-content li a:hover{ 
-   
+.footer-content li a:hover{  
   color:#34e89e;
 }
-.f-icons a{
+.f-icons i{
   display: 20px;
   font-size: 19px;
   color: #d6d6d6;
   margin-right: 13px;
+  transition: all .40s ease;
+}
+.f-icons i:hover{
+  color:#34e89e;
   transition: all .40s ease;
 }
