@@ -212,13 +212,10 @@ section2 {
 .footer-content li a:hover{  
   color:#34e89e;
 }
-.f-icons{
-  color: black;
-}
 .f-icons i{
   display: 20px;
   font-size: 19px;
-  color: black;
+  color: #d6d6d6;
   margin-right: 13px;
   transition: all .40s ease;
 }
