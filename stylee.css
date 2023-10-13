@@ -6,7 +6,9 @@
   text-decoration: none;
   text-align: center;
 }
-
+section{
+  height: 100vh;
+}
 body{
   
   height: 100vh;
@@ -14,12 +16,12 @@ body{
   background: linear-gradient(to bottom,#0f3443, #34e89e);
 }
 .frame {
-  background-color: none;
+  background-color: #ffffff;
   display: flex;
   flex-direction: row;
   justify-content: center;
   width: 100%;
-  height: 100vh;
+
 }
 
 .frame .div {
@@ -35,7 +37,7 @@ body{
   top: 20px;
   left: -100px;
   font-family: Inter;
-  color: #ffffff;
+  color: #0f3443;
   font-size: 40px;
   letter-spacing: 0;
   line-height: normal;
@@ -55,28 +57,41 @@ body{
   width: 531px;
   height: 321px;
   top: 50px;
-  left: -130px;
+  left: -90px;
   object-fit: cover;
   border-radius: 50px;
+}
+.bg-img{
+  padding-top: 25%;
+  background-color: none;
+  justify-content: left;
+  object-fit:cover ;
+}
+.trails{
+  left: 55%;
+  width: 50%;
+  padding-right: 10%;
+  position:absolute;
 }
 
 .frame .p {
   position: absolute;
   width: 652px;
-  top: 40px;
+  top: 25%;
   left: 550px;
-  font-family: Inter;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 32px;
+  font-weight: 100;
+  color: #13734b;
+  font-size: 22px;
   text-align: center;
-  letter-spacing: 0;
+  letter-spacing: 1;
   line-height: normal;
+  justify-content: right;
+  align-items:center;
 }
-section2 {
-  padding: 60px 6% 90px 90px;
-}
+
 .footer{
+  padding: 60px 10% 90px 90px;
+  height: 38vh;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(100px, auto));
   gap: 3.5rem;
@@ -84,9 +99,10 @@ section2 {
   list-style: none;
 }
 .footer-content h5{
-  padding-left: 2px;
+  padding-right: 72%;
+  padding-left: 0px;
   border-left:3px solid black ;
-  padding-top: 4px;
+  padding-top: 0px;
   font-size:20px;
   font-weight: 500;
   color:white;
@@ -94,7 +110,8 @@ section2 {
   text-decoration: none;
 }
 .footer-content p{
-  margin: 12px 0px 10px ;
+  padding-right: 40%;
+  margin: 20px 0px 10px ;
   font-size: .500rem;
   font-weight: 200;
   text-transform: uppercase;
@@ -117,13 +134,19 @@ section2 {
   transition: all .40s ease;
 }
 .footer-content li a:hover{ 
-   
   color:#34e89e;
 }
+.f-icons{
+  background-color: none;
+  padding-right: 50%;
+  padding-top: 5px;
+}
 .f-icons a{
-  display: 20px;
   font-size: 19px;
-  color: #d6d6d6;
-  margin-right: 13px;
+  color:white;
+  margin-right: 20px;
   transition: all .40s ease;
+}
+.f-icons a:hover{
+  color: #34e89e;
 }

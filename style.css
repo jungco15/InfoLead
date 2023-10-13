@@ -8,7 +8,7 @@
 body{
     height: 70vh;
     width: 100%;
-    background: linear-gradient(to bottom,#0f3443, #34e89e);
+    background-color: #ffffff;
 }
 .frame {
     margin: 0 25px 0 0px;
@@ -36,7 +36,7 @@ body{
     position: absolute;
     width: 550px;
     height: 425px;
-    top: 0;
+    top: 10px;
     left: 0;
     background-color: none;
   }
@@ -67,10 +67,10 @@ body{
     width: 700px;
     margin-top: 20px;
     margin-left: -17px;
-    -webkit-text-stroke: 1px #ffffff;
+    -webkit-text-stroke: 1px #000000;
     font-family: Inter;
     font-weight: 200;
-    color: #ffffff;
+    color: black;
     font-size: 20px;
     text-align: center;
     letter-spacing: 0;
@@ -82,7 +82,7 @@ body{
     position: relative;
     width: 400px;
     font-weight: 100;
-    color: #ffffff;
+    color: #000000;
     font-size: 15px;
     text-align: center;
     letter-spacing: 0;
@@ -108,7 +108,7 @@ body{
     gap: 10px;
     padding: 29px 79px;
     position: absolute;
-    top: -0px;
+    top: -100px;
     left: 800px;
     background-color:none;
   }
@@ -143,13 +143,13 @@ body{
   .frame .p {
     position: relative;
     width: 830px;
-    top: 100px;
+    top: 50px;
     left: -600px;
     margin-top: 0px;
     margin-left: 0px;
-    -webkit-text-stroke: 1px #ffffff;
+    -webkit-text-stroke: 1px #000000;
     font-weight: 200;
-    color: #ffffff;
+    color: #000000;
     font-size: 20px;
     text-align: center;
     letter-spacing: 0;
@@ -162,11 +162,11 @@ body{
   .frame .get-answers-fast {
     position: relative;
     width: 400px;
-    top: 180px;
+    top: 100px;
     left: -400px;
     font-family: Inter;
     font-weight: 100;
-    color: #ffffff;
+    color: #000000;
     font-size: 15px;
     text-align: center;
     letter-spacing: 0;
@@ -195,7 +195,7 @@ body{
     gap: 10px;
     padding: 29px 79px;
     position: absolute;
-    top: 50px;
+    top: -100px;
     left: 0;
     background-color: none;
 
@@ -224,14 +224,14 @@ body{
   .frame .text-wrapper-2 {
     position: relative;
     width: 443px;
-    top: 200px;
+    top: 10px;
     left: 200px;
     margin-top: 0px;
     margin-left: 0px;
-    -webkit-text-stroke: 1px #ffffff;
+    -webkit-text-stroke: 1px #000000;
     font-family: Inter;
     font-weight: 200;
-    color: #ffffff;
+    color: #000000;
     font-size: 20px;
     text-align: center;
     letter-spacing: 0;
@@ -243,11 +243,11 @@ body{
   .frame .text-wrapper-3 {
     position: relative;
     width: 400px;
-    top: 250px;
+    top: 80px;
     left: 220px;
     font-family: Inter;
     font-weight: 100;
-    color: #ffffff;
+    color: #000000;
     font-size: 15px;
     text-align: center;
     letter-spacing: 0;
@@ -256,10 +256,12 @@ body{
 
 
   }
-  ection2 {
+  section2 {
     padding: 60px 6% 90px 90px;
   }
   .footer{
+    padding: 60px 10% 90px 90px;
+    height: 38vh;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(100px, auto));
     gap: 3.5rem;
@@ -267,9 +269,10 @@ body{
     list-style: none;
   }
   .footer-content h5{
-    padding-left: 2px;
+    padding-right: 72%;
+    padding-left: 0px;
     border-left:3px solid black ;
-    padding-top: 4px;
+    padding-top: 0px;
     font-size:20px;
     font-weight: 500;
     color:white;
@@ -277,7 +280,8 @@ body{
     text-decoration: none;
   }
   .footer-content p{
-    margin: 12px 0px 10px ;
+    padding-right: 40%;
+    margin: 20px 0px 10px ;
     font-size: .500rem;
     font-weight: 200;
     text-transform: uppercase;
@@ -300,14 +304,20 @@ body{
     transition: all .40s ease;
   }
   .footer-content li a:hover{ 
-     
     color:#34e89e;
   }
+  .f-icons{
+    background-color: none;
+    padding-right: 50%;
+    padding-top: 5px;
+  }
   .f-icons a{
-    display: 20px;
     font-size: 19px;
-    color: #d6d6d6;
-    margin-right: 13px;
+    color:white;
+    margin-right: 20px;
     transition: all .40s ease;
+  }
+  .f-icons a:hover{
+    color: #34e89e;
   }
   
